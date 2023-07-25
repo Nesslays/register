@@ -22,14 +22,14 @@ function isValidPassword($password) {
 }
 
 // Your database connection details
-$servername = "your_servername";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_database";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "cbc_academy_db";
 
 // Create a connection to the database
 try {
-    $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+    $conn = new PDO("mysql:host=$localhost;dbname=$cbc_academy_db", $root, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
     die("Connection failed: " . $e->getMessage());
