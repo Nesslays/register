@@ -15,7 +15,7 @@ function isValidPhoneNumber($phone) {
     return preg_match('/^\+[0-9]{1,3}[0-9]{6,14}$/', $phone);
 }
 
-// Function to validate password format
+// Function to validate password format for proper security
 function isValidPassword($password) {
     // Password must contain at least one uppercase, one lowercase, one digit, and one special character
     return preg_match('/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/', $password);
