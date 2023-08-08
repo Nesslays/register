@@ -104,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="lastname">Last Name:</label>
         <input type="text" name="lastname" required><br>
 
-        <label for="email">Email:</label>
+        <label for="email">User Email:</label>
         <input type="email" name="email" required><br>
 
         <label for="phone">Phone Number:</label>
@@ -113,7 +113,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="password">Password:</label>
         <input type="password" name="password" required><br>
 
-        <label for="confirm_password">Confirm Password:</label>
+        <label for="confirm_password">Password Cornfarmation :</label>
         <input type="password" name="confirm_password" required><br>
 
         <input type="submit" value="Register">
