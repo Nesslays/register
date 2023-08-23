@@ -96,7 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <title>User Registration</title>
 </head>
 <body>
-    <h2>Sign-up Form</h2>
+    <h2>Sign-up</h2>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         <label for="firstname">First Name:</label>
         <input type="text" name="firstname" required><br>
@@ -117,6 +117,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" name="confirm_password" required><br>
 
         <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+        <hr>
+        
     </form>
 </body>
 </html>
