@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Member Registration</title>
+    <title>User Registration Details</title>
 </head>
 <body>
     <h2>Sign-up to the system</h2>
