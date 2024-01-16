@@ -123,7 +123,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <a href="Login.php">Login to system.
         <a href="Reset-passsword.php">Reset Password: 
             <p>Use Google acount</p>
-            <p>Use Facebook acount</p>
+            <p>Or Facebook acount</p>
             
             
         
