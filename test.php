@@ -113,7 +113,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="password">Password:</label>
         <input type="password" name="password" required><br>
 
-        <label for="confirm_password">Password Cornfarmation :</label>
+        <label for="confirm_password"> Cornfarmation Password:</label>
         <input type="password" name="confirm_password" required><br>
 
         <input type="submit" value="Register">
