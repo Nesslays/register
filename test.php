@@ -104,7 +104,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="lastname">Last Name:</label>
         <input type="text" name="lastname" required><br>
 
-        <label for="email">Email:</label>
+        <label for="email">User Email:</label>
         <input type="email" name="email" required><br>
 
         <label for="phone">Phone Number:</label>
@@ -123,6 +123,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <a href="Login.php">Login to system.
         <a href="Reset-passsword.php">Reset Password: 
             <p>Use Google acount</p>
+            <p>Use Facebook acount</p>
       
             
             
