@@ -98,16 +98,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <h2>Sign-up</h2>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <label for="firstname">First Name:</label>
+        <label for="firstname">FirstName:</label>
         <input type="text" name="firstname" required><br>
 
-        <label for="lastname">Last Name:</label>
+        <label for="lastname">LastName:</label>
         <input type="text" name="lastname" required><br>
 
-        <label for="email">User Email:</label>
+        <label for="email">UserEmail:</label>
         <input type="email" name="email" required><br>
 
-        <label for="phone">Phone Number:</label>
+        <label for="phone">PhoneNumber:</label>
         <input type="text" name="phone" required><br>
 
         <label for="password">Password:</label>
