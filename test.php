@@ -98,7 +98,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body>
     <h2>Sign-up</h2>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <label for="firstname">FirstName:</label>
+        <label for="firstname">First Name:</label>
         <input type="text" name="firstname" required><br>
 
         <label for="lastname">Last Name:</label>
@@ -107,23 +107,23 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="email">User Email:</label>
         <input type="email" name="email" required><br>
 
-        <label for="phone">Phone_Number:</label>
+        <label for="phone">Phone Number:</label>
         <input type="text" name="phone" required><br>
 
         <label for="password">Password:</label>
         <input type="password" name="password" required><br>
 
-        <label for="confirm_password"> Cornfarm_Password:</label>
+        <label for="confirm_password"> Cornfarm Password:</label>
         <input type="password" name="confirm_password" required><br>
 
         <input type="submit" value="Register">
         <input type="reset" value="Reset">
         
         <hr>
-        <a href="Login.php">Login to system.
+        <a href="Login.php">Login.
         <a href="Reset-passsword.php"> Password Reset: 
             <p>Use Google </p>
-            <p>Use Linkedin </p>
+          
       
             
             
