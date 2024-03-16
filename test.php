@@ -120,7 +120,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="reset" value="Reset">
         
         <hr>
-        <a href="Login.php">Login.
+        <a href="Login.php">Login to the System.
         <a href="Reset-passsword.php"> Password Reset: 
             <p>Use Google </p>
           
