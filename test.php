@@ -101,10 +101,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="firstname">FirstName:</label>
         <input type="text" name="firstname" required><br>
 
-        <label for="lastname">LastName:</label>
+        <label for="lastname">Last Name:</label>
         <input type="text" name="lastname" required><br>
 
-        <label for="email">UserEmail:</label>
+        <label for="user name">Last Name:</label>
+        <input type="text" name="username" required><br>
+
+        <label for="email">User Email:</label>
         <input type="email" name="email" required><br>
 
         <label for="phone">PhoneNumber:</label>
