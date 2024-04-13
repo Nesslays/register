@@ -124,8 +124,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <hr>
         <a href="Login.php">Login to the System.
-        <a href="Reset-passsword.php"> Password Reset: 
-        <a href="google.com">use Google account: 
+       
            
           
       
