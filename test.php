@@ -124,7 +124,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <hr>
         <a href="Login.php">Login to the System.</a>
-        <a href="google.php">Gogle.</a>
+     
        
            
           
