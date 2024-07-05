@@ -113,6 +113,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="phone">PhoneNumber:</label>
         <input type="text" name="phone" required><br>
 
+        <label for="phone">County:</label>
+        <input type="text" name="county" required><br>
+
         <label for="password">Password:</label>
         <input type="password" name="password" required><br>
 
