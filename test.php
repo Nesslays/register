@@ -129,8 +129,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="reset" value="Reset">
         
         <hr>
-        <a href="Login.php">Login to the System.</a>
-        <a href="Login.php">Google</a>
+      
      
        
            
