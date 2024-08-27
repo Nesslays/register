@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Member Registration</title>
+    <title>User Registration</title>
 </head>
 <body>
     <h2>Sign-up</h2>
@@ -130,7 +130,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <hr>
       
-     
+     <a href="google">Use google</a>
        
            
           
