@@ -130,7 +130,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <hr>
       
-     <a href="google">Use google</a>
+     <a href="google.com">Use google</a> <a href="facebook.com">Use Facebook</a>
        
            
           
