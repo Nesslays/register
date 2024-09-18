@@ -131,6 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <hr>
       
      <a href="google.com">Use google</a> <a href="facebook.com">Use Facebook</a>
+     <a href="login.php">Login</a>
        
            
           
