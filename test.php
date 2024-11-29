@@ -130,8 +130,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
         <hr>
       
-     Use: <a href="google.com">google</a> | <a href="facebook.com">Facebook</a> | <a href="facebook.com">Microsoft</a>
-     <a href="login.php">Login</a>
+  
        
            
           
