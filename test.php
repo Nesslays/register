@@ -110,6 +110,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <label for="email">Email:</label>
         <input type="email" name="email" required><br>
 
+        <label for="gender">Gender:</label>
+        <input type="text" name="gender" required><br>
+
+
         <label for="phone">PhoneNumber:</label>
         <input type="text" name="phone" required><br>
 
