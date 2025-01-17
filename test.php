@@ -131,6 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <input type="submit" value="Register">
         <input type="reset" value="Reset">
+        <a href="google.com">Google</a>
         
         <hr>
       
