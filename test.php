@@ -130,7 +130,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" name="confirm_password" required><br>
 
         <input type="submit" value="Register">
-        <input type="reset" value="Reset">
+        <input type="reset" value="Clear">
+
       
         <hr>
       
