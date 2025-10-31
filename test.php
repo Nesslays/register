@@ -124,6 +124,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <label for="confirm_password"> Cornfarm Password:</label>
         <input type="password" name="confirm_password" required><br>
+        <a href="www.google.com">Google</a>
 
         <input type="submit" value="Register">
         <input type="reset" value="Clear">
